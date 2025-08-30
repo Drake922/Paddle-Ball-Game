@@ -1,0 +1,37 @@
+<!-- HTML will help us create: game area, paddle, ball, score, game over message -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paddle ball game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div>
+<div class="game container">
+    <h1>Paddle ball game</h1>
+    <P> Score: <span id="score">0</span></P>
+    <button id="start-button">Start Game</button>
+<div id="game-area">
+    <div id="ball"></div>
+    <div id="paddle"></div>
+    
+</div>
+<div id="game-over-message" style="display:none ;">
+        <h2>Game Over!!!</h2>
+        <p>Your Final score Is: <span id="final-score">0</span></p>
+        <button id="restart-button">Play Again</button>
+    </div>
+
+
+</div>
+    
+</div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
